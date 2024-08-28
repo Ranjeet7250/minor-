@@ -1,0 +1,1049 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+body{
+    background-color:#f8f8f8;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color:#f8f8f8;
+    position: relative;
+    padding-top: 0.1px;
+}
+.nav{
+    height: 10vh;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 38px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav h3{
+    display: none;
+}
+.nav h1{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:monument;
+    font-size: 40px;
+    letter-spacing: -1px;
+    position: relative;
+}
+.nav h1::after{
+    content: "©️";
+    font-family:gilroy;
+    font-weight: 400;
+    font-size: 20px;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+.nav h1::before{
+    content: "model management";
+    font-family:gilroy;
+    font-weight: 500;
+    color: #666;
+    font-size: 16px;
+    position: absolute;
+    letter-spacing: 0.2px;
+    bottom: 10%;
+    right: 15%;
+}
+.nav h2{
+    /* background-color: yellow; */
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid black;
+    font-weight: 600;
+    font-size: 20px;
+}
+.nav h2:nth-last-child(2){
+    width: 10%;
+}
+.nav h2:nth-last-child(1){
+    width: 10%;
+}
+.centre{
+    height: 90vh;
+    width: 100%;
+    /* background-color: red; */
+    padding: 3vw 4.5vw;
+    position: relative;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+.content video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.overlay{
+    height: 55%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    /* background-color: red; */
+    padding: 3vw;
+    color: white;
+}
+.over1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2vw;
+}
+.over1 h1{
+    font-family: monument;
+    font-size: 3vw;
+}
+.over1 h2{
+    font-size: 1vw;
+    padding: 2vw 2.4vw;
+    border-radius: 50%;
+    border: 1px solid white;
+    border-bottom: 3px solid white;
+}
+.over2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid white;
+    padding: 1.5vw 0;
+}
+.over2 h4{
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+.over2 img{
+    height: 3vw;
+}
+.scroll{
+    height: 40vh;
+    width: 100%;
+    /* background-color: red; */
+    white-space: nowrap;
+    overflow-x:hidden;
+    overflow-y: hidden
+}
+.container{
+    height: 100%;
+    width: 110%;
+    /* background-color: blue; */
+    display: inline-block;
+    padding: 2vw;
+    animation-name: anime;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.scroll img{
+    height: 95%;
+    width: 15%;
+    margin: 1vw;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 30% 30%;
+}
+@keyframes anime {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+.alphabet{
+    height: 11vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    margin-right: 2vw;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.alphabet h5{
+    font-size: 1.7vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 2px;
+    border-bottom: 2px solid black;
+}
+.alphabet h6{
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 2px;
+    /* background-color: yellow; */
+    padding: 0.5vw 0.6vw;
+    border-radius: 50%;
+    border: 1.5px solid rgba(0, 0, 0, 0);
+    cursor: pointer;
+    transition: all ease 0.2s;
+
+}
+.alphabet h6:hover{
+    border: 2px solid rgb(0, 0, 0);
+}
+.page2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vw 5vw;
+}
+.page2-part1{
+    height: 100%;
+    width: 50%;background-image: url(https://images.unsplash.com/photo-1535704882196-765e5fc62a53?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 0 30%;
+}
+.page2-part2{
+    height: 100%;
+    width: 46%;
+}   
+.page2-part2 img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+} 
+.paragraph{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7vw 1vw;
+}
+.paragraph h3{
+    width: 35%;
+}
+.paragraph h6{
+    width: 40%;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 5vw;
+}
+.photo1{
+    height: 100%;
+    width: 40%;
+    /* background-color: yellow; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.circle{
+    height: 500px;
+    width: 500px;
+    /* background-color: red; */
+    background-image: url("minor-video/Brand\ Initial\ Curved\ Text\ Monogram\ Badge\ Logo\ \(2\).png");
+    border-radius: 50%;
+    background-size: cover;
+    animation: gol 5s linear infinite ;
+}
+@keyframes gol {
+    0%{
+        transform: rotate(0deg) ;
+    }
+    100%{
+        transform: rotate(360deg) ;
+    }
+}
+.photo1 h2{
+    letter-spacing:-1;
+}
+.photo2{
+    height: 100%;
+    width:55%;
+    background-color: salmon;
+    background-image: url(https://img.freepik.com/premium-photo/portrait-young-woman-against-background-fair_564714-12779.jpg);
+    background-size: cover;
+    background-position: 70%;
+}
+/* .photo1 img{
+    height: 70%;
+    background-color: red;
+} */
+.ladki{
+    height: 90vh;
+    width: 100%;
+    /* background-color: red; */
+    padding: 2vw 5vw;
+}
+.ladki1{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://wallpapercave.com/wp/wp7118248.jpg);
+    background-size: cover;
+}
+.page3{
+    height: 100vh;
+    width: 100%;
+    position:relative ;
+    padding: 4vw 4vw;
+}
+.page3>h1{
+    text-align: center;
+    font-family: monument;
+    text-transform: uppercase;
+    font-size: 3vw;
+    font-weight: 550;
+    margin-bottom: 6vh;
+}
+.elem{
+    height: 15.5vh;
+    width: 100%;
+    /* background-color: red; */
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+    position: relative;
+    transition: all ease 0.7s;
+}
+.elem img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 12%;
+    opacity: 0;
+    transition: all ease 0.7s;
+}
+
+.elem h4{
+    font-size: 1.1vw;
+    text-transform: uppercase;
+    width: 6%;
+}
+.elem .elem-part2{
+    width: 50%;
+}
+.elem-part2 h1{
+    font-size: 2.7vw;
+    font-weight: 550;
+}
+.elem-part2 h5{
+    font-size: 0.8vw;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.elem:nth-last-child(1){
+    border-bottom: 2px solid black;
+}
+.elem:nth-last-child(1) img{
+    left: 40%;
+}
+.elem:nth-last-child(3) img{
+    left: 40%;
+}
+.elem:hover img{
+    opacity: 1;
+    left: 26%;
+}
+.elem:hover{
+    background-color: #c4c4c4;
+}
+#marque{
+    width: 100%;
+    /* background-color: rgb(255, 0, 0); */
+    padding: 0.8vw;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#marque h1{
+    display: inline-block;
+    font-size: 3vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+    letter-spacing: 3px;
+    font-family: monument;
+    margin-right: 16px;
+    animation-name: mover;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes mover {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(calc(-100% - 20px));
+    }
+}
+.foot{
+    height: 100vh;
+    width: 100%;
+    padding: 3vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.f1{
+    height: 100%;
+    width: 22%;
+}
+.f1 h1{
+    font-size: 4vw;
+    text-transform: uppercase;
+    font-family: monument;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 2vw;
+}
+.f2{
+    height: 100%;
+    width: 35%;
+}
+.f2 p{
+    padding: 0.7vw;
+    font-weight: 600;
+}
+.f2 p::first-letter{
+    font-size: medium;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 0.1vw 0.4vw;
+}
+.f2 img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    padding: 0.8vw;
+}
+.f3{
+    height: 100%;
+    width: 35%;
+}
+.f3 p{
+    padding: 0.7vw;
+    font-weight: 600;
+}
+.f3 p::first-letter{
+    font-size: medium;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 0.1vw 0.4vw;
+}
+.f3 img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    padding: 0.8vw;
+}
+.footer{
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+    border-top: 2.4px solid black;
+    border-bottom: 2.5px solid black;
+}
+.footer .logo{
+    height: 90%;
+    width: 27%;
+    /* background-color: yellow; */
+    border-bottom: 2.5px solid black;
+    border-left: 2.5px solid black;
+}
+.footer h1{
+    height: 90%;
+    width: 20%;
+    font-family:monument;
+    font-size: 40px;
+    letter-spacing: -1px;
+    position: relative;
+    padding: 1vw 5vw;
+}
+.footer h1::after{
+    content: "©️";
+    font-family:gilroy;
+    font-weight: 400;
+    font-size: 20px;
+    position: absolute;
+    top: 8%;
+    right:-100%;
+}
+.footer .model{
+    height: 90%;
+    width: 11%;
+    text-align: center;
+    padding: 1.4vw 1vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    border-right: 2.4px solid black;
+    border-bottom: 2.5px solid black;
+}
+.footer .men{
+    height: 90%;
+    width: 18%;
+    text-align: center;
+    padding: 1.5vw 1vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    border-right: 2.4px solid black;
+    border-bottom: 2.5px solid black;
+}
+.footer .contact{
+    height: 90%;
+    width:45%;
+    text-align: center;
+    border-right: 2.4px solid black;
+    border-bottom: 2.5px solid black;
+    
+}
+.footer .p{
+    text-align: center;
+    padding: 1.3vw 0vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+    padding-bottom: 0.5vw;
+    letter-spacing: -0.5px;
+    }
+.icon{
+    height:65.1%;
+    width: 100%;
+    border-top: 2.5px solid black;
+    margin-top: 1vw;
+    padding: 1vw 0vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    /* background-color: red; */
+    padding-bottom: 0.5vw;
+}
+.icon i{
+    margin-right: 1.5vw;
+}
+.footer pre{
+    font-size: 1.2vw;
+}
+.footer pre::before{
+    content: "©";
+}
+@media (max-width:600px) {
+    body{
+        overflow-x: hidden;
+    }
+    .nav{
+        height: 7vh;
+        margin-top: 20px;
+        padding: 0 5vw;
+    }
+    .nav h1{
+        width: 40%;    
+        justify-content: flex-start;
+        font-size: 25px;
+    }
+    .nav h3{
+        display: block;
+    }
+    .nav h1::after{
+        display: none;
+    }
+    .nav h1::before{
+        display: none;
+    }
+    .nav h2{
+        display: none;
+    }
+    .centre{
+        height: 40vh;
+        width: 100%;
+        position: relative;
+        padding: 2vw;
+
+    }
+    .content{
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        position: relative;
+    }
+    .content video{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .overlay{
+        height:fit-content;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        /* background-color: red; */
+        padding: 3vw;
+        color: white;
+    }
+    .over1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2vw;
+    }
+    .over1 h1{
+        font-family: monument;
+        font-size: 5vw;
+        font-weight: 200;
+    }
+    .over1 h2{
+        font-size: 1vw;
+        padding: 3vw 3.4vw;
+        border-radius: 50%;
+        border: 1px solid white;
+        border-bottom: 3px solid white;
+    }
+    .over2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 2px solid white;
+        padding: 1.5vw 0;
+    }
+    .over2 h4{
+        font-size: 3.3vw;
+        font-weight: 500;
+    }
+    .over2 img{
+        height: 5vw;
+    }
+    .scroll{
+        height:20vh;
+        width: 100%;
+        /* background-color: red; */
+        white-space: nowrap;
+        overflow-x:hidden;
+        overflow-y: hidden;
+    }
+    .container{
+        height: 100%;
+        width: 210%;
+        /* background-color: blue; */
+        display: inline-block;
+        padding: 2vw;
+        animation-name: anime;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    .scroll img{
+        height: 95%;
+        width: 15.5%;
+        margin: 1vw;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: 30% 30%;
+    }
+    .alphabet{
+        height: 3vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    .alphabet h5{
+        width: fit-content;
+        font-size: 2.2vw;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-style: italic;
+        border-bottom: 2px solid rgb(0, 0, 0);
+    }
+    .alphabet h6{
+        font-size: 2.5vw;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-style: italic;
+        border-radius: 50%;
+        border: 1.5px solid rgba(0, 0, 0, 0);
+        cursor: pointer;
+        transition: all ease 0.2s;
+    
+    }
+    .alphabet h6:hover{
+        border: 2px solid rgb(0, 0, 0);
+    }
+    .page2{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 4vw 5vw;
+    }
+    .page2-part1{
+        height: 47%;
+        width: 100%;background-image: url(https://images.unsplash.com/photo-1535704882196-765e5fc62a53?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-size: cover;
+        background-position: 0 30%;
+    }
+    .page2-part2{
+        height: 50%;
+        width: 100%;
+    }   
+    .page2-part2 img{
+        height: 80%;
+        width: 100%;
+        object-fit: cover;
+    } 
+    .paragraph{
+        display: flex;
+        justify-content: space-between;
+        padding: 0.7vw 1vw;
+    }
+    .paragraph h3{
+        width: 35%;
+        font-size: 3vw;
+    }
+    .paragraph h6{
+        width: 40%;
+        font-size: 2vw;
+    }
+    .page1{
+        height: 100vh;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        padding: 3vw 5vw;
+        /* background-color: red; */
+    }
+    .photo1{
+        height: 50%;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .circle{
+        height: 250px;
+        width:250px;
+        /* background-color: red; */
+        background-image: url("minor-video/Brand\ Initial\ Curved\ Text\ Monogram\ Badge\ Logo\ \(2\).png");
+        border-radius: 50%;
+        background-size: cover;
+        animation: gol 5s linear infinite ;
+    }
+    @keyframes gol {
+        0%{
+            transform: rotate(0deg) ;
+        }
+        100%{
+            transform: rotate(360deg) ;
+        }
+    }
+    .photo1 h2{
+        font-size: 3.5vw;
+        letter-spacing:-1;
+    }
+    .photo2{
+        height: 50%;
+        width:100%;
+        background-image: url(https://img.freepik.com/premium-photo/portrait-young-woman-against-background-fair_564714-12779.jpg);
+        background-size: cover;
+        background-position: 70%;
+    }
+    .ladki{
+        height: 35vh;
+        width: 100%;
+        /* background-color: red; */
+        padding: 2vw 5vw;
+    }
+    .ladki1{
+        height: 100%;
+        width: 100%;
+        background-image: url(https://wallpapercave.com/wp/wp7118248.jpg);
+        background-size: cover;
+    }
+    .page3{
+        height: 45vh;
+        width: 100%;
+        position:relative ;
+        padding: 4vw 4vw;
+        /* background-color: red; */
+    }
+    .page3>h1{
+        text-align: center;
+        font-family: monument;
+        text-transform: uppercase;
+        font-size: 6vw;
+        font-weight: 550;
+        margin-bottom: 2vh;
+    }
+    .elem{
+        height: 7.5vh;
+        width: 100%;
+        /* background-color: red; */
+        border-top: 2px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2vw;
+        position: relative;
+        transition: all ease 0.7s;
+    }
+    .elem img{
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        position: absolute;
+        left: 12%;
+        opacity: 0;
+        transition: all ease 0.7s;
+    }
+    
+    .elem h4{
+        font-size: 2.5vw;
+        text-transform: uppercase;
+        width: 7%;
+    }
+    .elem .elem-part2{
+        width: 50%;
+    }
+    .elem-part2 h1{
+        font-size: 3.9vw;
+        font-weight: 650;
+    }
+    .elem-part2 h5{
+        font-size: 1.8vw;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .elem:nth-last-child(1){
+        border-bottom: 2px solid black;
+    }
+    .elem:nth-last-child(1) img{
+        left: 40%;
+    }
+    .elem:nth-last-child(3) img{
+        left: 40%;
+    }
+    .elem:hover img{
+        opacity: 1;
+        left: 26%;
+    }
+    .elem:hover{
+        background-color: #c4c4c4;
+    }
+    #marque{
+        width: 100%;
+        /* background-color: rgb(255, 0, 0); */
+        padding: 0.8vw;
+        white-space: nowrap;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    #marque h1{
+        display: inline-block;
+        font-size:4.9vw;
+        text-transform: uppercase;
+        font-weight: 700;
+        -webkit-text-stroke: 2px black;
+        color: transparent;
+        letter-spacing: 3px;
+        /* background-color: blue; */
+        font-family: monument;
+        margin-right: 16px;
+        animation-name: mover;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    .foot{
+        height: 80vh;
+        width: 100%;
+        padding: 3vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .f1{
+        height: 15%;
+        width: 100%;
+        bottom: 1vw;
+    }
+    .f1 h1{
+        font-size: 6vw;
+        text-transform: uppercase;
+        font-family: monument;
+        font-weight: 800;
+        text-align: center;
+    }
+    .f2{
+        height: 45%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        /* margin-top: 1.5vw; */
+    }
+    .f2 p{
+        padding: 1.7vw;
+        font-weight: 600;
+        font-size: 3vw;
+        height: 70%;
+        width: 40%;
+        margin-top: 3vw;
+    }
+    .f2 p::first-letter{
+        font-size: medium;
+        border: 2px solid black;
+        border-radius: 50%;
+        padding: 0.1vw 0.4vw;
+    }
+    .f2 img{
+        height: 90%;
+        width: 50%;
+        object-fit: cover;
+        padding: 0.8vw;
+    }
+    .f3{
+        height: 45%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 3vw;
+    }
+    .f3 p{
+        padding: 1.7vw;
+        font-weight: 600;
+        font-size: 3vw;
+        height: 70%;
+        width: 40%;
+        margin-top: 3vw;
+    }
+    .f3 p::first-letter{
+        font-size: medium;
+        border: 2px solid black;
+        border-radius: 50%;
+        padding: 0.1vw 0.4vw;
+    }
+    .f3 img{
+        height: 90%;
+        width: 50%;
+        object-fit: cover;
+        padding: 0.8vw;
+    }
+    .footer{
+        height: 15vh;
+        width: 100%;
+        display: flex;
+        /* justify-content: space-around; */
+        border-top: 2.4px solid black;
+        border-bottom: 2.5px solid black;
+    }
+    .footer .logo{
+        height: 90%;
+        width: 27%;
+        border-bottom: 2.5px solid black;
+        border-left: 2.5px solid black;
+    }
+    .footer h1{
+        height: 90%;
+        width: 20%;
+        font-family:monument;
+        font-size: 12px;
+        letter-spacing: -1px;
+    
+        padding: 1vw 3vw;
+    }
+    .footer .model{
+        height: 90%;
+        width: 11%;
+        /* padding: 0.4vw 0vw; */
+        font-size: 2.5vw;
+        font-weight: 500;
+        letter-spacing: -0.5px;
+        border-right: 2.4px solid black;
+        border-bottom: 2.5px solid black;
+        /* background-color: red; */
+    }
+    .footer .men{
+        height: 90%;
+        width: 22%;
+        font-size: 2.5vw;
+        font-weight: 500;
+        letter-spacing: -0.5px;
+        border-right: 2.4px solid black;
+        border-bottom: 2.5px solid black;
+    }
+    .footer .contact{
+        height: 90%;
+        width:45%;
+        text-align: center;
+        border-right: 2.4px solid black;
+        border-bottom: 2.5px solid black;
+        
+    }
+    .footer .p{
+        text-align: center;
+        /* padding: 1.3vw 0vw; */
+        font-size: 2.5vw;
+        font-weight: 500;
+        padding-bottom: 0.5vw;
+        letter-spacing: -0.5px;
+        }
+    .icon{
+        height:65.1%;
+        width: 100%;
+        border-top: 2.5px solid black;
+        margin-top: 1vw;
+        padding: 1vw 0vw;
+        font-size: 2.5vw;
+        font-weight: 500;
+        letter-spacing: -0.5px;
+        /* background-color: red; */
+        padding-bottom: 0.5vw;
+    }
+    .icon i{
+        margin-right: 1.5vw;
+    }
+    .footer pre{
+        font-size:1.5vw;
+    }
+    .footer pre::before{
+        content: "©";
+    }
+    
+}
